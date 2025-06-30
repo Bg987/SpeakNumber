@@ -71,8 +71,8 @@ To download (pull) the full project including code and folders:
 ```bash
 git clone https://github.com/Bg987/SpeakNumber.git
 cd SpeakNumber
----
 
+---
 
 ## 🧪 Compilation
 
