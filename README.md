@@ -26,7 +26,7 @@
 
 ```
 SpeakNumber/
-├── project1.c
+├── SpeakNumber.c
 ├── README.md
 ├── .gitignore
 └── wordproject/
@@ -64,12 +64,21 @@ SpeakNumber/
 
 ---
 
+## 📥 Clone the Project
+
+To download (pull) the full project including code and folders:
+
+```bash
+git clone https://github.com/Bg987/SpeakNumber.git
+cd SpeakNumber
+
+
 ## 🧪 Compilation
 
 Use this to compile your code:
 
 ```bash
-gcc project1.c -o SpeakNumber.exe -lwinmm
+gcc SpeakNumber.c -o SpeakNumber.exe -lwinmm
 ```
 
 > `-lwinmm` links the Windows multimedia library required for `PlaySound()`.
@@ -92,14 +101,6 @@ or just double-click the `SpeakNumber.exe` file in Windows.
 - Practice string and number manipulation
 - Create a beginner-level speech project
 - Modify it for other languages or educational purposes
-
----
-
-## 📧 Contact
-
-**Bhavya Godhaniya**  
-📫 Email: [bhavyagodhaniya2004@gmail.com](mailto:bhavyagodhaniya2004@gmail.com)  
-🌐 GitHub: [Bg987](https://github.com/Bg987)
 
 ---
 
