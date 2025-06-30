@@ -18,7 +18,7 @@
 
 > Input: `123456789`  
 > Output (audio plays):  
-> "One hundred twenty-three million four hundred fifty-six thousand seven hundred eighty-nine"
+> "Twelve Crore Thirty Four Lakh Fifty Six Thousand Seven Hundred Eighty Nine"
 
 ---
 
