@@ -6,11 +6,11 @@
 
 ## 🎯 Features
 
-- 🔢 Converts numbers into spoken words
-- 📁 Uses `.wav` sound files organized by number range
-- 🔊 Plays sound using Windows `PlaySound()` API
-- 🧩 Modular and easy to update or extend
-- 💻 Works via console input
+- 🔢 Converts numbers into spoken words  
+- 📁 Uses `.wav` sound files organized by number range  
+- 🔊 Plays sound using Windows `PlaySound()` API  
+- 🧩 Modular and easy to update or extend  
+- 💻 Works via console input  
 
 ---
 
@@ -50,17 +50,17 @@ SpeakNumber/
 
 ## ⚙️ How It Works
 
-- The program breaks the input number into parts (crore, lakh, thousand, hundred, etc.).
-- Plays respective sound clips using the helper function `PlayMusic()`.
-- The base path to all audio files is stored in one variable, keeping the code clean and DRY.
+- The program breaks the input number into parts (crore, lakh, thousand, hundred, etc.)
+- Plays respective sound clips using the helper function `PlayMusic()`
+- The base path to all audio files is stored in one variable, keeping the code clean and DRY
 
 ---
 
 ## 🛠️ Requirements
 
-- Windows OS
-- GCC / MinGW compiler (for `gcc`)
-- Proper folder structure and `.wav` files
+- Windows OS  
+- GCC / MinGW compiler (for `gcc`)  
+- Proper folder structure and `.wav` files  
 
 ---
 
@@ -71,6 +71,9 @@ To download (pull) the full project including code and folders:
 ```bash
 git clone https://github.com/Bg987/SpeakNumber.git
 cd SpeakNumber
+```
+
+> This will create a local folder named `SpeakNumber` with all required files.
 
 ---
 
@@ -92,16 +95,16 @@ gcc SpeakNumber.c -o SpeakNumber.exe -lwinmm
 ./SpeakNumber.exe
 ```
 
-or just double-click the `SpeakNumber.exe` file in Windows.
+Or just double-click the `SpeakNumber.exe` file in Windows.
 
 ---
 
 ## 🧠 Why Use This Project?
 
-- Learn multimedia handling in C
-- Practice string and number manipulation
-- Create a beginner-level speech project
-- Modify it for other languages or educational purposes
+- Learn multimedia handling in C  
+- Practice string and number manipulation  
+- Create a beginner-level speech project  
+- Modify it for other languages or educational purposes  
 
 ---
 
@@ -113,5 +116,5 @@ This project is open-source. Feel free to use or modify it for learning or perso
 
 ## 📌 Notes
 
-- Make sure all `.wav` files are placed correctly, and filenames match exactly.
-- Folder paths use double backslashes `\` because of Windows path syntax in C.
+- Make sure all `.wav` files are placed correctly, and filenames match exactly.  
+- Folder paths use double backslashes `\` in strings due to Windows path syntax in C.

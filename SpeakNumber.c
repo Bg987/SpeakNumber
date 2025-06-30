@@ -6,7 +6,7 @@ char basePath[] = "C:\\Users\\HP\\Desktop\\SpeakNumber\\";
 // Function to play any .wav file by sub-path
 void PlayMusic(const char *subPath) {
     char fullPath[256];
-    sprintf(fullPath, 0"%s%s", basePath, subPath);  // Combine basePath + subPath
+    sprintf(fullPath, "%s%s", basePath, subPath);  // Combine basePath + subPath
     PlaySound(TEXT(fullPath), NULL, SND_SYNC);     // Play the sound
 }
 void play();
