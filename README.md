@@ -1,4 +1,4 @@
-# 🔊 SpeakNumber (Num2Speech)
+#  SpeakNumber (Num2Speech)
 
 **SpeakNumber** is a C-based project that converts any number up to 999,999,999 into spoken audio using pre-recorded `.wav` files. It's designed for Windows systems using the `PlaySound` API, making it ideal for learning multimedia handling in C.
 
