@@ -92,7 +92,7 @@ gcc SpeakNumber.c -o SpeakNumber.exe -lwinmm
 ## ▶️ Run the Program
 
 ```bash
-./SpeakNumber.exe
+SpeakNumber.exe
 ```
 
 Or just double-click the `SpeakNumber.exe` file in Windows.
