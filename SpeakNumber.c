@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<windows.h>
 #include<MMsystem.h>
-char basePath[] = "Your_path";
+char basePath[] = "Your_path_";
 
 // Function to play any .wav file by sub-path
 void PlayMusic(const char *subPath) {
