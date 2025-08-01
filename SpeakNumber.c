@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include<windows.h>
 #include<MMsystem.h>
-char basePath[] = "";// Base path of the folder ex. C:\\Users\\......\\SpeakNumber\\
+#pragma comment(lib, "winmm.lib") // Optional in some compilers
+char basePath[] = "C:\\Users\\HP\\Desktop\\SpeakNumber\\";
 
 // Function to play any .wav file by sub-path
 void PlayMusic(const char *subPath) {
@@ -14,8 +15,6 @@ void word(int j);
 void word1(int i, int j);
 
 
-
-#pragma comment(lib, "winmm.lib") // Optional in some compilers
 int main(){
 	int i=0;
 	PlayMusic("other\\welcome.wav");
